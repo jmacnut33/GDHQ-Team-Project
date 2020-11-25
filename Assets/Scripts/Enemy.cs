@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class enemy : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
     [SerializeField]
     private float _speed = 4.0f;
@@ -28,10 +28,10 @@ public class enemy : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "player")
+        if (other.tag == "Player")
         {
             Debug.Log("player destroy");
-            other.transform.GetComponent<player>().Damage();
+            other.transform.GetComponent<Player>().Damage();
             Destroy(this.gameObject);
         }
 
