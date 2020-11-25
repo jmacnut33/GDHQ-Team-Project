@@ -1,8 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+<<<<<<< HEAD
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
+=======
+# Visual Studio 15
+>>>>>>> 2_enemy_doesnt_die
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{EF113BFE-70DF-0569-ACB8-6AA772356547}"
 EndProject
 Global
@@ -19,7 +23,10 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+<<<<<<< HEAD
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A2D1592D-DF4D-47F1-9093-984B7F87831E}
 	EndGlobalSection
+=======
+>>>>>>> 2_enemy_doesnt_die
 EndGlobal
